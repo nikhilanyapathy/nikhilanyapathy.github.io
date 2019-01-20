@@ -1,3 +1,6 @@
 .inline-header {
 	display:inline;
 }
+.navSelected {
+	color:#4D9BE1;
+}
