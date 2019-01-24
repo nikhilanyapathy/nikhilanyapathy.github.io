@@ -4,3 +4,6 @@
 .navSelected {
 	color:#4D9BE1;
 }
+.project-tile {
+	border-radius: 25px;
+}
