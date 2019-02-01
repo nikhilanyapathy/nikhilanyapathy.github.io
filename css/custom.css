@@ -7,3 +7,15 @@
 .project-tile {
 	border-radius: 25px;
 }
+.text-center {
+	text-align: center;
+}
+.image-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.div-half {
+	width: 50%;
+}
