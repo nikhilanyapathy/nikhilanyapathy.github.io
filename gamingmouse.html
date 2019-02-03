@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="index.html#projects">My Projects</a></li>
                         <li><a href="about.html">About Me</a></li>
-                        <li><a href="download/ResumeNikhilaNyapathy.pdf" download>Resume</a></li>
+                        <li><a href="download/ResumeNikhilaNyapathy.pdf" target="_blank">Resume</a></li>
                         <li><a href="mailto:nikhila.nyapathy@gmail.com">Contact me</a></li>
                     </ul>
                 </div>
@@ -58,7 +58,7 @@
                 <ul>
                     <li><a href="index.html#projects">My Projects</a></li>
                     <li><a href="about.html">About Me</a></li>
-                    <li><a href="download/ResumeNikhilaNyapathy.pdf" download>Resume</a></li>
+                    <li><a href="download/ResumeNikhilaNyapathy.pdf" target="_blank">Resume</a></li>
                     <li><a href="mailto:nikhila.nyapathy@gmail.com">Contact me</a></li>
                 </ul>
             </div>
@@ -73,17 +73,17 @@
     <div class="single-project-section section">
         <div class="container">
             <div class="row single-project-row">
-                <div class="col-lg-9 col-md-8 col-md-offset-1 content">
+                <div class="col-lg-10 col-md-8 col-md-offset-1 content">
                     <div class="project-single-first-box">
                         <div class="project-single-title">
-                            <h3>Gaming Mouse Purchase</h3>
+                            <h3 class="text-center">Gaming Mouse Purchase</h3>
                         </div>
                         <div class="project-single-desc">
                             <p><h5>BestBuy website add-on for improving the experience of purchasing a gaming mouse</h5></p>
                         </div>
                     </div>
                     <div id = "overview" class="margin-box">
-                        <h4>Overview</h4>
+                        <h4 class="text-center">Overview</h4>
                         <div class="scroll-viewport">
                             <table>
                             <tbody>
@@ -115,7 +115,7 @@
                         <div class="legend"></div>
                     </div>
                     <div id="context" class="margin-box">
-                        <h4>Problem Context</h4>
+                        <h4 class="text-center">Problem Context</h4>
                         <div class="opacity-box">
                             <p>The prompt given to us was to choose a product and a corresponding brand and redesign the purchase experience for it. We chose gaming mice as our product and Logitech (which we pivoted away from for reasons explained below) as our brand. Gaming mice are different from regular mice in that they come equipped with features to extend the capabilities of the mouse to suit PC gamers, like programmable buttons, ergonomic grips to reduce fatigue, ten thousand DPI sensors for extreme precision, back-lit colors in the mechanics and more. Different types of games (MMO, RPG etc) require different types of mice. As evident - it is a complex sea to navigate, given the sheer variety which interested us in this space.
                             <i>Disclaimer: All the research was conducted with a handful of participants and is not representative of the entire user group.</i></p>
@@ -125,7 +125,7 @@
                     <!--Phase 1 Divergent Research --->
                     
                     <div id="divergent_research" class="margin-box">
-                        <h4>Phase 1 Divergent Research</h4>
+                        <h4 class="text-center">Phase 1 Divergent Research</h4>
                         <div class="opacity-box">
                             <p>Our first phase of research was focussed on understanding various avenues of purchasing gaming mice, what the common trends and problems were with them, how satisfied people were with their most recent mode of purchase, what they liked and didn't like, and what factors influenced their decision.</p>
                         </div>
@@ -135,27 +135,30 @@
                                             Icons made by Becris from www.flaticon.com is licensed by CC 3.0 BY</div>
                         </div>
                         <div id="analysis" class="margin-box">
-                            <h5>Analysis</h5>
+                            <h5><br>Analysis</h5>
+                            <div class="row">
+                                <div class="col-lg-6 opacity-box">
+                                    <p>We used an affinity diagram for the interview data. Key takeaways included: “I want the best deal” “I care about touch & feel” and “Physical features are important”.</p>
+                                </div>
+                                <div class="col-lg-6 img-box">
+                                <img src="media/gamingmouse-page/phase_1_affinity_diagram.png" alt="">
+                                <div class="legend"></div>
+                            </div>
+                            </div>
+                            </div>
+
                             <div class="opacity-box">
-                                <p>We used an affinity diagram for the interview data. Key takeaways included: “I want the best deal” “I care about touch & feel” and “Physical features are important”.</p>
+                                <p>We generated <b>infographics</b> from the survey data to understand trends and patterns. We drew up a comparison table to analyze our context exploration findings.</p>
                             </div>
-                            <div class="img-box">
-                            <img src="media/gamingmouse-page/phase_1_affinity_diagram.png" alt="">
-                            <div class="legend"></div>
-                            </div>
-                            <div class="opacity-box">
-                                <p>We generated <b>infographics</b> from the survey data to understand trends and patterns.</p>
-                            </div>
-                            <div class="img-box">
-                            <img src="media/gamingmouse-page/online_problems.png" alt="">
-                            <div class="legend">Word cloud of problems found shopping online</div>
-                            </div>
-                            <div class="img-box">
-                            <img src="media/gamingmouse-page/in_store_problems.png" alt="">
-                            <div class="legend">Word cloud of problems found shopping in-store</div>
-                            </div>
-                            <div class="opacity-box">
-                                <p>We drew up a comparison table to analyze our context exploration findings.</p>
+                            <div class="row">
+                                <div class="col-lg-6 img-box">
+                                <img src="media/gamingmouse-page/online_problems.png" alt="">
+                                <div class="legend">Word cloud of problems found shopping online</div>
+                                </div>
+                                <div class="col-lg-6 img-box">
+                                <img src="media/gamingmouse-page/in_store_problems.png" alt="">
+                                <div class="legend">Word cloud of problems found shopping in-store</div>
+                                </div>
                             </div>
                         </div>
 
@@ -165,11 +168,9 @@
                                 <p>We decided to focus on the <b>in-store buying context</b> due to the sheer number of pain points reflected through our research. The many deficiencies included not having many (if any) mice on display, no functional interactivity with the mice, lack of specs, inaccessibility for those in wheelchairs, limited selection and lack of convenience. The <b>highest percentage of unsatisfied users</b> were those who purchased a mouse in-store. We decided to focus on BestBuy instead of Target as Target did not seem to have the scope to have specialized gaming equipment. It was here where we pivoted away from Logitech being our brand focus - since the problems faced by the customers were brand agnostic.</p>
                             </div>
                         </div>
-                    </div>
-
-                    <!--Phase 2 Convergent Research-->
+                        <!--Phase 2 Convergent Research-->
                     <div id="convergent_research" class="margin-box">
-                        <h4>Phase 2 Convergent Research</h4>
+                        <h4 class="text-center">Phase 2 Convergent Research</h4>
                         <div class="opacity-box">
                             <p>Our next step was to attempt to narrow down on our focus in the store context. For this, we wanted to find out what the pain points of those who were shopping in-store were, and compare them. At the same time, we had to consider the advantages of the in-store context to retain them in the final solution. We were interested in seeing if we could bring the convenience of online purchase to the in store experience. We needed to learn more about the users, their motivations and influencing factors.</p>
                         </div>
@@ -181,203 +182,312 @@
                         </div>
 
                         <div id="phase2_analysis" class="margin-box">
-                            <h4>Analysis</h4>
+                            <h5>Analysis</h5>
                             <div class="opacity-box">
                                 <p>We conducted quantitative analysis of the survey results to gauge which pain point was the most common. We also analyzed which attributes of the mouse were most important, as well as trends amongst different employment categories and budgets. Main issues found were lack of <b>in-store selection, pricing issues, lack of touch & feel and lack of interaction.</b></p>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/pain_points_survey.png" alt="">
-                                    <div class="legend"></div>
+                            <div class="row">
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/pain_points_survey.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/attributes_survey.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/attributes_survey.png" alt="">
-                                    <div class="legend"></div>
+                            <div class="row">
+                                <div class="col-lg-6 opacity-box">
+                                    <p>We used an affinity diagram to analyze the results of the contextual inquiries and semi-structured interviews together due to the similarity in the data received. Key takeaways were that the participants found a <b>lack of information in-store</b> and <b>issues in demonstration</b> of the mice (not being able to truly test it out before buying).</p>
+                                </div>
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/phase_2_affinity_diagram.jpg" alt="">
+                                        <div class="legend"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="opacity-box">
-                                <p>We used an affinity diagram to analyze the results of the contextual inquiries and semi-structured interviews together due to the similarity in the data received. Key takeaways were that the participants found a <b>lack of information in-store</b> and <b>issues in demonstration</b> of the mice (not being able to truly test it out before buying).</p>
-                            </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/phase_2_affinity_diagram.jpg" alt="">
-                                    <div class="legend"></div>
-                                </div>
-                            </div>
-                            <h4>Personas</h4>
+                            <h5>Personas</h5>
                             <div class="opacity-box">
                                 <p>We formed these based on the demographic information collected from the research - we found that most problems were common across all groups. We decided to develop two personas with mostly common problems but slightly differing priorities.</p>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_1.png" alt="">
-                                    <div class="legend"></div>
+                            <div class="row">
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_1.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_2.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_2.png" alt="">
-                                    <div class="legend"></div>
+                            <div class="row">
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_1_pain_gain.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_2_pain_gain.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_1_pain_gain.png" alt="">
-                                    <div class="legend"></div>
+                            <div class="row">
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_1_empathy_map.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 margin-box">
+                                    <div class="img-box">
+                                        <img src="media/gamingmouse-page/persona_2_empathy_map.png" alt="">
+                                        <div class="legend"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_2_pain_gain.png" alt="">
-                                    <div class="legend"></div>
-                                </div>
-                            </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_1_empathy_map.png" alt="">
-                                    <div class="legend"></div>
-                                </div>
-                            </div>
-                            <div class="margin-box">
-                                <div class="img-box">
-                                    <img src="media/gamingmouse-page/persona_2_empathy_map.png" alt="">
-                                    <div class="legend"></div>
-                                </div>
-                            </div>
-                            <h4>Design criteria</h4>
-                            <div class="margin-box">
+                            <h5>Design criteria</h5>
+                            <div class="text-center margin-box">
                                 <div class="img-box">
                                     <img src="media/gamingmouse-page/design_criteria.png" alt="">
                                     <div class="legend"></div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
 
-
-                        <div id="design" class="margin-box">
-                            <h5>Design Iterations</h5>
-                            <div class="opacity-box">
-                                    <p>After brainstorming various ideas and refining them based on feasibility and relevance, we ended up with 4 ideas which we sketched out.</p>
+                    <div id="design" class="margin-box">
+                        <h4 class="text-center">Design Iterations</h4>
+                        <div class="opacity-box">
+                                <p>After brainstorming various ideas and refining them based on feasibility and relevance, we ended up with 4 ideas which we sketched out.</p>
+                        </div>
+                        <div id="price_scanner" class="row margin-box">
+                            <div class="col-lg-6 margin-box">
+                                <div class="img-box">
+                                    <img src="media/gamingmouse-page/price_scanner.png" alt="">
+                                    <div class="legend"></div>
+                                </div>
                             </div>
-                            <div id="price_scanner" class="margin-box">
+                            <div class="col-lg-6">
                                 <h5>Price scanner</h5>
                                 <div class="opacity-box">
                                     <p>This was an in store kiosk which would scan mouse to see if there is a cheaper deal elsewhere and print a coupon to show in store for a price match guarantee.</p>
                                 </div>
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="media/gamingmouse-page/price_scanner.png" alt="">
-                                        <div class="legend"></div>
-                                    </div>
-                                </div>                                
-                            </div>
+                            </div>                              
+                        </div>
 
-                            <div id="appointment_system" class="margin-box">
+                        <div id="appointment_system" class="row margin-box">
+                            <div class="col-lg-6">
                                 <h5>Appointment system of immersive demo area</h5>
                                 <div class="opacity-box">
                                     <p>This was a system to book an appointment for an immersive demo experience in-store.</p>
                                 </div>
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="media/gamingmouse-page/appointment_demo_booker.png" alt="">
-                                        <div class="legend"></div>
-                                    </div>
+                            </div>
+                            <div class="col-lg-6 margin-box">
+                                <div class="img-box">
+                                    <img src="media/gamingmouse-page/appointment_demo_booker.png" alt="">
+                                    <div class="legend"></div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div id="q_and_a" class="margin-box">
+                        <div id="q_and_a" class="row margin-box">
+                            <div class="col-lg-6 margin-box">
+                                <div class="img-box">
+                                    <img src="media/gamingmouse-page/interactive_q_a.png" alt="">
+                                    <div class="legend"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
                                 <h5>Interactive Question & Answer app</h5>
                                 <div class="opacity-box">
                                     <p>An app to post questions and get real time answers, watch live streams of their favorite streamers and receive weekly digest of gaming content.</p>
                                 </div>
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="media/gamingmouse-page/interactive_q_a.png" alt="">
-                                        <div class="legend"></div>
-                                    </div>
-                                </div>
                             </div>
-                            
-                            <div id="suggestions_availability" class="margin-box">
+                        </div>
+                        
+                        <div id="suggestions_availability" class="row margin-box">
+                            <div class="col-lg-6">
                                 <h5>Suggestions & Availability app</h5>
                                 <div class="opacity-box">
                                     <p>An app to give personalized gaming peripheral suggestions based on gaming styles and habits, asked in the form of a survey. It also shows the availability of different models in nearby stores.</p>
                                 </div>
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="media/gamingmouse-page/suggestions_availability.png" alt="">
-                                        <div class="legend"></div>
-                                    </div>
-                                </div>
                             </div>
-
-
-                            <div id="sketches_feedback" class="margin-box">
-                                <h5>Sketches feedback session</h5>
-                                <div class="opacity-box">
-                                    <p>We used a <b>between subjects design</b> for the feedback session, with a <b>randomized order</b> of presentation of sketches to reduce bias. We collected information on what they liked, disliked and wanted in each design. We then analyzed the data using <b>spreadsheet analysis.</b></p>
-                                </div>
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="media/gamingmouse-page/sketches_feedback.png" alt="">
-                                        <div class="legend"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="wireframes" class="margin-box">
-                                <h5>Wireframes</h5>
-                                <div class="opacity-box">
-                                    <p>Based on the given feedback, we decided to go with the appointment booking interface, integrated with the personalized   mouse suggestions. We had to let go of the price matcher simply because it was part of the pre purchase process and was clunky along with the chosen interface. We decided to make this an add-on to the BestBuy website as users had indicated reluctance to download a new application.
-                                    We conducted a feedback session for the wireframe, where we tried to gauge the usability of our wireframe, and what the participants would change/retain. The data was analyzed using the SWOT technique, and we made annotations to denote things to change.</p>
-                                </div>
-
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="" alt="">
-                                        <div class="legend"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="improved_design" class="margin-box">
-                                <h5>Improved Design</h5>
-                                <div class="opacity-box">
-                                    <p>We incorporated the feedback shown above to develop our final design.
-                                    <i>Note: We did not go ahead with our plan to adapt the system to an in-store walk-in appointment experience as it was a different system altogether and out of scope given our time.</i></p>
-                                </div>
-
-                                <div class="margin-box">
-                                    <div class="img-box">
-                                        <img src="" alt="">
-                                        <div class="legend"></div>
-                                    </div>
+                            <div class="col-lg-6 margin-box">
+                                <div class="img-box">
+                                    <img src="media/gamingmouse-page/suggestions_availability.png" alt="">
+                                    <div class="legend"></div>
                                 </div>
                             </div>
                         </div>
 
+
+                        <div id="sketches_feedback" class="margin-box">
+                            <h5>Sketches feedback session</h5>
+                            <div class="opacity-box">
+                                <p>We used a <b>between subjects design</b> for the feedback session, with a <b>randomized order</b> of presentation of sketches to reduce bias. We collected information on what they liked, disliked and wanted in each design. We then analyzed the data using <b>spreadsheet analysis.</b></p>
+                            </div>
+                            <div class="margin-box">
+                                <div class="img-box">
+                                    <img src="media/gamingmouse-page/sketches_feedback.png" alt="">
+                                    <div class="legend"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="wireframes" class="margin-box">
+                            <h5>Wireframes</h5>
+                            <div class="opacity-box">
+                                <p>Based on the given feedback, we decided to go with the appointment booking interface, integrated with the personalized   mouse suggestions. We had to let go of the price matcher simply because it was part of the pre purchase process and was clunky along with the chosen interface. We decided to make this an add-on to the BestBuy website as users had indicated reluctance to download a new application.
+                                We conducted a feedback session for the wireframe, where we tried to gauge the usability of our wireframe, and what the participants would change/retain. The data was analyzed using the SWOT technique, and we made annotations to denote things to change.</p><br>
+                            </div>
+
+                            <div id="myCarousel" class="image-center carousel slide">
+
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="media/gamingmouse-page/wireframe/1_homepage.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Home page of the BestBuy website</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/2_gamingmousesearch.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Browsing for gaming mice and having an option to add to a 'demo list'</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/3_demodevicelist.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Demo list page - can either take a survey from here or complete the demo booking</h5>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/4_survey1.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Survey options</h5>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/5_survey2.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Survey options according to game type</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/6_survey3.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Suggestions based on survey answers</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/7_apptdetails.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Page to book the demo appointment (from demo list page)</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/8_choosestore.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Store picker</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/9_datetime.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Date and time picker</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="media/gamingmouse-page/wireframe/10_confirmed.png" alt="Chania">
+                                        <div>
+                                            <h5 class="text-center">Appointment confirmation page</h5>
+                                        </div>
+                                    </div>
+
+                              </div>
+
+                              <!-- Left and right controls -->
+                              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+
+                            <div class="margin-box">
+                                <div class="img-box">
+                                    <img src="" alt="">
+                                    <div class="legend"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="improved_design" class="margin-box">
+                            <h5>Improved Design</h5>
+                            <div class="opacity-box">
+                                <p>We incorporated the feedback shown above to develop our final design.
+                                <br><i>Note: We did not go ahead with our plan to adapt the system to an in-store walk-in appointment experience as it was a different system altogether and out of scope given our time.</i></p>
+                            </div>
+
+                            <div class="margin-box">
+                                <div class="img-box">
+                                    <img src="" alt="">
+                                    <div class="legend"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                     <!--Evaluation-->
                     <div id="Evaluation" class="margin-box">
-                        <h4>Evaluation</h4>
-                        <div class="img-box">
+                        <h4 class="text-center">Evaluation</h4>
+                        <div class="image-center img-box">
                             <img src="media/gamingmouse-page/evaluation_methods.png" alt="">
                             <div class="legend"></div>
                         </div>
                         <div class="opacity-box">
-                            <h5>Key Findings</h5>
+                            <br><br><h5>Key Findings</h5>
                             <h5>Cognitive walkthrough</h5>
-                            <div class="img-box">
+                            <div class="image-center img-box">
                                 <img src="media/gamingmouse-page/cognitive_walkthrough_findings.png" alt="">
                                 <div class="legend"></div>
                             </div>
                             <div class="opacity-box">
                                 <p>After conducting the cognitive walkthrough, we iterated again over our prototype with the suggestions by the experts, before going into the usability benchmarking. The <b>final design and prototype is shown here: <a href="https://invis.io/ACFKYA0BJV3">https://invis.io/ACFKYA0BJV3</a> </b><br>Feel free to check it out!</p>
                             </div>
-                            <h5>Usability benchmarking</h5>
-                            <div class="img-box">
+                            <br><br><h5>Usability benchmarking</h5>
+                            <div class="image-center img-box">
                                 <img src="media/gamingmouse-page/usability_benchmarking_findings.png" alt="">
                                 <div class="legend"></div>
                             </div>
@@ -389,7 +499,7 @@
 
                     <div id="conclusion" class="margin-box">
                         <div class="opacity-box">
-                            <h4>In Conclusion: Takeaways</h4>
+                            <h4 class="text-center">In Conclusion: Takeaways</h4>
                             <p><ul><li><b>It is not always possible to target 100% of the possible scenarios.</b> We faced this difficulty while trying to integrate the price matcher into our system, and also when we tried to adapt our system to an in-store context. After a lot of back and forth, we realized it was outside our scope.</li>
                             <li><b>Accessibility is a huge factor</b>, not only in designing our solution but also in designing the actual demo area. We had multiple discussions about maintaining the accessibility of the website.</li>
                             <li>Users do not always want to download new applications. This was one of the reasons we went for an add-on to an existing website rather than a separate system. <b>People want smooth integration into already existing functional solutions.</b></li>
@@ -397,6 +507,10 @@
                            </ul></p>
                         </div>
                     </div>
+
+                    </div>
+
+                
 
                     <div class="project-info-line">
                         <div class="info-line">
@@ -520,6 +634,9 @@
 
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.css"></script>
 
 <script src="js/jquery.placeholder.min.js"></script>
 
