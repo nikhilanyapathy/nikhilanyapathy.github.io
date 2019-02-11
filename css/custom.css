@@ -22,3 +22,9 @@
 .project-subtitle {
 	font-weight: 1;
 }
+.tool-link {
+	text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #337ab7;
+}
