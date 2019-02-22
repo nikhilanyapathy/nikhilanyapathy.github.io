@@ -153,13 +153,13 @@
                         <h5 class="text-center"><br>User Goals</h5>
                         <div class="opacity-box">
                             <p><b>Explore dialogue content</b> <br>How do conversation themes and genres intersect? In a specific movie, how do themes intersect with characters? What are the patterns of conversations between characters?<br><br>
-                            <b>Gain insight into gender ratio & balances</b><br>How does inter & intra sex ratio in conversations vary over years and themes? Do certain genres have a better female-female balance in conversations? How do these ratios intersect with movies that pass or fail the Bechdel test?></p>
+                            <b>Gain insight into intra and inter sex ratio & balances</b><br>How does inter & intra sex ratio in conversations vary over years and themes? Do certain genres have a better female-female balance in conversations? How do these ratios intersect with movies that pass or fail the Bechdel test?></p>
                         </div>
 
 
                         <h5 class="text-center"><br>Data Analysis</h5>
                         <div class="opacity-box">
-                            We did a lot of cleaning, data preprocessing, natural language processing (NLP) & analysis to help facilitate different ways to achieve our two main user goals:</p>
+                            We did a lot of cleaning, data preprocessing, natural language processing (NLP) & analysis to help facilitate different ways to achieve our two main user goals.<br><i>Disclaimer - Unfortunately, the Genderizer API and our dataset in general did not include any information for non-binary genders.</i></p>
                         </div>
                         <div class="margin-box">
                             <div class="image-center img-box" style="width:100%;">
@@ -195,7 +195,7 @@
                         
                         <h5 class="text-center">Idea #2</h5>
                         <div class="opacity-box">
-                            <p>This idea gives the users the option of drilling down by genre or by decade in a fun, whimsical way - like a calendar or movie board. Once they select any of these categories, we would then have maybe a dense pixel mapping of movie titles filtered to that genre/decade with the overall sentiment and gender balance trends for that specific genre/decade in the side panel. </p><br>
+                            <p>This idea gives the users the option of drilling down by genre or by decade in a fun, whimsical way - like a calendar or movie board. Once they select any of these categories, we would then have maybe a dense pixel mapping of movie titles filtered to that genre/decade with the overall sentiment and sex ratio balance trends for that specific genre/decade in the side panel. </p><br>
                         </div>
                         <div class="margin-box">
                             <div class="image-center img-box" style="width:60%;">
@@ -204,7 +204,7 @@
                             </div>
                         </div>
                         <div class="opacity-box">
-                            <p>In the detail view, we have the conversation mapping between different characters in the movie, in the form of an arc diagram, with each node representing a character in the film. Hovering over an arc would or clicking on it would give us more information about the conversation in the form of a popup. Here, we also have sentiment and gender balance trends for the specific movie to compare to the overall trends.
+                            <p>In the detail view, we have the conversation mapping between different characters in the movie, in the form of an arc diagram, with each node representing a character in the film. Hovering over an arc would or clicking on it would give us more information about the conversation in the form of a popup. Here, we also have sentiment and sex ratio balance trends for the specific movie to compare to the overall trends.
                             </p><br>
                         </div>
                         <div class="margin-box">
@@ -216,7 +216,7 @@
 
                         <h5 class="text-center">Idea #3</h5>
                         <div class="opacity-box">
-                            <p>In this design, the user could select a movie and they would see details about it like the sentiment, gender ratios, IMDB ratings (dials in the top left quadrant), bar charts to show words/themes by gender (bottom left quadrant), arc diagram to show conversation mapping with each character as a node (bottom right quadrant) and a density pixel of top words used (top right quadrant).
+                            <p>In this design, the user could select a movie and they would see details about it like the sentiment, sex balance ratios, IMDB ratings (dials in the top left quadrant), bar charts to show words/themes by sex (bottom left quadrant), arc diagram to show conversation mapping with each character as a node (bottom right quadrant) and a density pixel of top words used (top right quadrant).
                             </p><br>
                         </div>
                         <div class="margin-box">
@@ -229,7 +229,7 @@
 
                         <h5 class="text-center">Idea #4</h5>
                         <div class="opacity-box">
-                            <p>This was a highly analytical visualization, which allowed users to see cross gender, word, sentiment and ratings trends through treemaps, bar charts and stacked area charts. The user could also drill down from high-level trends across genre and time, to details about individual movies. The rest of the viz mostly focused on the top words in different categories - positive/negative sentiment, same-gender/cross-gender conversations, context and so on.</p><br>
+                            <p>This was a highly analytical visualization, which allowed users to see cross sex, word, sentiment and ratings trends through treemaps, bar charts and stacked area charts. The user could also drill down from high-level trends across genre and time, to details about individual movies. The rest of the viz mostly focused on the top words in different categories - positive/negative sentiment, same-sex/cross-sex conversations, context and so on.</p><br>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 margin-box">
@@ -265,12 +265,12 @@
                         <div class="opacity-box">
                             <p>Based on overall feedback, we went with an overview and detail view as people were interested in discovering high level patterns and then drilling down to a specific movie.<br>Overview view has overall trends through a dense pixel mapping of all the movies across sentiment, bucketed by decade, and shaded by whether they pass the Bechdel test or not. It also has along with a bar graph of top themes across decades.</p><br>
                         </div>
-                        <div class="image-center margin-box">
+<!--                         <div class="image-center margin-box">
                             <iframe width="800" height="515" src="https://xd.adobe.com/embed/a0b7f9cf-3a58-40ae-7ac4-3b7554524920-d686/" frameborder="0" allowfullscreen></iframe>
                             <div class="legend">Clickable prototype</div>
-                        </div>
+                        </div> -->
                         <div class="opacity-box">
-                            <p>The detail view, once a user chooses a movie, has a network diagram of conversations through a hybrid between a parallel coordinate and an arc diagram. This has two axes for male and female characters, with arcs between nodes on the same axes representing same gender conversations and lines between the two representing cross gender ones. The view also has sliders for sentiment and bars to indicate gender balance for that movie vs the decade it was released in, as well as top themes shown through bubbles.</p><br>
+                            <p>The detail view, once a user chooses a movie, has a network diagram of conversations through a hybrid between a parallel coordinate and an arc diagram. This has two axes for male and female characters, with arcs between nodes on the same axes representing same sex conversations and lines between the two representing cross sex ones. The view also has sliders for sentiment and bars to indicate sex balance for that movie vs the decade it was released in, as well as top themes shown through bubbles.</p><br>
                         </div>
                         <div class="image-center margin-box">
                             <iframe width="800" height="515" src="https://xd.adobe.com/embed/a0b7f9cf-3a58-40ae-7ac4-3b7554524920-d686/" frameborder="0" allowfullscreen></iframe>
@@ -279,7 +279,7 @@
 
                         <h5 class="text-center">Changes to Iteration #1</h5>
                         <div class="opacity-box">
-                            <p>Based on further data analysis, we found no interesting pattern for the sentiment, and found that the gender balances in the conversations over the decades were more interesting. Further, themes were unchanging across decades - so we did not see the value in showing that, rather we showed the conversational themes obtained from LIWC across genres. For the detail view, as we implemented it we made some design changes - the theme bubbles made it difficult to distinguish the value for each theme so we opted for bars instead, and placed the stacked bar charts next to one another for easy comparison.
+                            <p>Based on further data analysis, we found no interesting pattern for the sentiment, and found that the sex balances in the conversations over the decades were more interesting. Further, themes were unchanging across decades - so we did not see the value in showing that, rather we showed the conversational themes obtained from LIWC across genres. For the detail view, as we implemented it we made some design changes - the theme bubbles made it difficult to distinguish the value for each theme so we opted for bars instead, and placed the stacked bar charts next to one another for easy comparison.
                             <br></p>
                         </div>
 
