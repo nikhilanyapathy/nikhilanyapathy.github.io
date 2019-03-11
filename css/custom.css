@@ -32,3 +32,6 @@
 	background: #384154;
 	color: white;
 }
+.image-border {
+	border: 2px solid #DDDDDD;
+}
