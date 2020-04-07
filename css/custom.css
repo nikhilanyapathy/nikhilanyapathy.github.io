@@ -35,3 +35,6 @@
 .image-border {
 	border: 2px solid #DDDDDD;
 }
+.inline-header {
+      display: inline;
+}
