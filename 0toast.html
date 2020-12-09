@@ -23,13 +23,13 @@ body {
 }
 
 .lightbox {
-	zoom: 1.5;
+	zoom: 1.25;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(225, 225, 220, 0.8);
+	background: rgba(225, 225, 220, 0.9);
 	text-align: center;
 	margin: auto;
 
@@ -49,17 +49,17 @@ div.vertical {
 }
 
 ::-webkit-input-placeholder {
-   color: #955;
+   color: #707070;
    text-align: center;
 }
 
 ::-moz-placeholder {
-   color: #955;
+   color: #707070;
    text-align: center;
 }
 
 :-ms-input-placeholder {
-   color: #955;
+   color: #707070;
    text-align: center;
 }
 
@@ -71,9 +71,11 @@ div.vertical {
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
-					<input class="site-input" id="password" type="password" placeholder="password" /> <br />
-					<button class="site-btn btn-theme-white btn-theme-blue-tr" style="width:50%" id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+					<div class="box project-subtitle text-center">Hey there! I'm so excited you want to check out my ADP work. <br>This page is password protected due to NDA, feel free to reach out over email if you're interested in viewing it.<br><br></div>
+					<div class="box">
+					<input  class="site-input image-center" style="width:275px;" id="password" type="password" placeholder="Type in the magic word!" /> <br />
+					<button class="site-btn btn-theme-blue" id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">Oops, wrong password!</p></div>
 				</div>
 			</div>
 		</div>
@@ -110,7 +112,7 @@ div.vertical {
 				parent.location.hash= hash;
 
 				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
+				$("#password").attr("placeholder","Oops, wrong password!");
 				$("#password").val("");
 			}
 		});
