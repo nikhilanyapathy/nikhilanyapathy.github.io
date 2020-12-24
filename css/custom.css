@@ -48,6 +48,7 @@
 .toast-box {
 	border: 3px solid #FFAB3F;
 	border-radius: 25px;
+	padding:5%;
 	flex: 1;
 }
 .toast-quote {
